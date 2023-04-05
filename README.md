@@ -1,6 +1,6 @@
 # Kreditplus Hub
 
-Merupakan aplikasi penghubung atau aggregator pembayaran dari merchant ke Kreditplus. Project ini dibuat menggunakan Nuxt 3 dengan Composition API, Pinia, Unocss, Vite, dan Vitestings
+Merupakan aplikasi penghubung atau aggregator pembayaran dari merchant ke Kreditplus. Project ini dibuat menggunakan Nuxt 3 dengan Composition API, Pinia, Unocss, Vite, dan Vitestings  next project
 
 
 ### Editor Setup
