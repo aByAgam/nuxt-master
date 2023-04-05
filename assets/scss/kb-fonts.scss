@@ -1,0 +1,39 @@
+/* KBFGDisplay */
+@font-face {
+  font-family: 'KBFGDisplay';
+  font-style: normal;
+  font-weight: 700;
+  src: local('KBFGDisplay-Bold'), local('KBFGDisplay-Bold'),
+  url('../fonts/kbfonts/KBFGDisplay-Bold.woff') format('woff'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'KBFGDisplay';
+  font-style: normal;
+  font-weight: 500;
+  src: local('KBFGDisplay-Medium'), local('KBFGDisplay-Medium'),
+  url('../fonts/kbfonts/KBFGDisplay-Medium.woff') format('woff'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'KBFGDisplay';
+  font-style: italic;
+  font-weight: 400;
+  src: local('KBFGDisplay-MediumItalic'), local('KBFGDisplay-MediumItalic'),
+  url('../fonts/kbfonts/KBFGDisplay-MediumItalic.woff') format('woff'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'KBFGDisplay';
+  font-style: normal;
+  font-weight: 300;
+  src: local('KBFGDisplay-Light'), local('KBFGDisplay-Light'),
+  url('../fonts/kbfonts/KBFGDisplay-Light.woff') format('woff'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'KBFGDisplay';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/kbfonts/KBFGDisplay-Medium.woff') format('woff');
+}

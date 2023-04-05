@@ -1,0 +1,19 @@
+#add vitest.config.js
+
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+export default defineConfig({
+  plugins: [vue()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+  },
+})
+
+
+#npm i pinia -f     
+
+#npm install -D @vue/test-utils @nuxt/test-utils
+
+npm install -D vitest jsdom @vitejs/plugin-vue 

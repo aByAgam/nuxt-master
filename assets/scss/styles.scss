@@ -1,0 +1,10 @@
+@import './kb-fonts.scss';
+@import './variables.scss';
+@import './transition.scss';
+@import './scrollbar.scss';
+@import './ripple.scss';
+
+html, body {
+  font-family: $default-font;
+  color: $default-text-color !important;
+}

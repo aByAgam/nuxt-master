@@ -1,0 +1,88 @@
+/* global root variables */
+/* set as global so it can be used on unocss too */
+:root {
+  /* color scheme start */
+  --white: #FFFFFF;
+
+  // black
+  --black-900: #131313;
+  --black-800: #333333; // base
+  --black-700: #515151;
+  --black-600: #646464;
+  --black-500: #8B8B8B;
+  --black-400: #ACACAC;
+  --black-300: #D1D1D1;
+  --black-200: #E3E3E3;
+  --black-100: #EEEEEE;
+  --black-50: #F7F7F7;
+
+  // kp yellow
+  --kp-yellow-900: #FE6806;
+  --kp-yellow-800: #FE8903;
+  --kp-yellow-700: #FF9A00;
+  --kp-yellow-600: #FFAD00;
+  --kp-yellow-500: #FFBC00; // base
+  --kp-yellow-400: #FFC525;
+  --kp-yellow-300: #FFD04C;
+  --kp-yellow-200: #FFDD80;
+  --kp-yellow-100: #FFEAB2;
+  --kp-yellow-50: #FFF7E0;
+
+  // system danger
+  --system-danger-700: #9C3E3E;
+  --system-danger-600: #C54E4E;
+  --system-danger-500: #F46363; // base
+  --system-danger-400: #F67878;
+  --system-danger-300: #F89595;
+  --system-danger-200: #FFCCCC;
+  --system-danger-100: #FFF1F1;
+
+  // system success
+  --system-success-700: #1F9050;
+  --system-success-600: #27B364;
+  --system-success-500: #2ED477; // base
+  --system-success-400: #5FDE97;
+  --system-success-300: #9DFFC8;
+  --system-success-200: #C6FFDF;
+  --system-success-100: #E5F9EC;
+  --system-success-50: #EBFFF2;
+
+  // system warning
+  --system-warning-700: #F88235;
+  --system-warning-600: #FF9238;
+  --system-warning-500: #FF9D3B; // base
+  --system-warning-400: #FFAB49;
+  --system-warning-300: #FFBA64;
+  --system-warning-200: #FFCE8E;
+  --system-warning-100: #FFF5EC;
+
+  // kp blue
+  --kp-blue-900: #005C94;
+  --kp-blue-800: #087CB5;
+  --kp-blue-700: #098DC9;
+  --kp-blue-600: #14A1DC; // base
+  --kp-blue-500: #1BAEEA;
+  --kp-blue-400: #37BAED;
+  --kp-blue-300: #57C6EE;
+  --kp-blue-200: #84D7F3;
+  --kp-blue-100: #B4E7F8;
+  --kp-blue-50: #EDFBFF;
+
+  // kp red
+  --kp-red-900: #C7000E;
+  --kp-red-800: #D5141E;
+  --kp-red-700: #E21F24; // base
+  --kp-red-600: #F42C2B;
+  --kp-red-500: #FF382A;
+  --kp-red-400: #FD4C49;
+  --kp-red-300: #F2706F;
+  --kp-red-200: #F99998;
+  --kp-red-100: #FFCDD1;
+  --kp-red-50: #FFEBEE;
+
+  /* color scheme end */
+}
+
+/* project specific varables */
+$default-font: 'KBFGDisplay', 'sans-serif';
+$default-text-color: var(--black-800);

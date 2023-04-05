@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest --run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged && npm run test"
+  },
+  "lint-staged": {
+    "*.{vue,js,ts}": "eslint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.37.0",
+    "@iconify-json/fluent": "^1.1.18",
+    "@nuxt/test-utils": "^3.3.2",
+    "@unocss/transformer-directives": "^0.50.6",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitest/coverage-c8": "^0.29.7",
+    "@vue/test-utils": "^2.3.2",
+    "eslint": "^8.17.0",
+    "eslint-plugin-vitest": "^0.0.54",
+    "jsdom": "^21.1.1",
+    "lint-staged": "^13.2.0",
+    "nuxt": "^3.3.1",
+    "sass": "^1.52.2",
+    "sass-loader": "^13.0.0",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "^5.0.2",
+    "vite-plugin-eslint": "^1.6.1",
+    "vitest": "^0.29.8"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.4",
+    "@unocss/nuxt": "^0.50.6",
+    "@unocss/reset": "^0.50.6",
+    "@vueuse/math": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "maska": "^2.1.7",
+    "pinia": "^2.0.33",
+    "tabbable": "^6.1.1"
+  }
+}

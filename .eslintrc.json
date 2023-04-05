@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@antfu"
+  ],
+  "plugins": [
+    "vitest"
+  ],
+  "rules": {
+    "no-console": "warn"
+  }
+}
