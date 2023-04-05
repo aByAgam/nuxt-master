@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { MaskaDetail } from 'maska'
-
+// test git hooks
 interface MaskaOptions {
   mask: string
   tokens?: string | Object
