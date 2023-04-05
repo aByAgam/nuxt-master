@@ -6,7 +6,7 @@ interface MaskaOptions {
   reversed?: boolean
   process?: Object
 }
-
+// test githooks
 const props = defineProps({
   type: {
     type: String,
